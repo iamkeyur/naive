@@ -364,7 +364,7 @@ int main()
 
     QueryResult<int> q;
     std::set<int> removed;
-    std::vector<QueryResult<int>> r = q.query(i, fieldsBoost, 1.2, 0.75, removed, "hell");
+    std::vector<QueryResult<int>> r = q.query(i, fieldsBoost, 1.2, 0.75, removed, "payal Patel");
     for (auto i : r)
     {
         std::cout << "Key : " << i.key << "   Score : " << i.score << std::endl;
